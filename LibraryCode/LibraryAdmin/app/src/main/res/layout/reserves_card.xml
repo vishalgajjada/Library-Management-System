@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/reserved_book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserved Books"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/reserved_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserved Books"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/call_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:background="@drawable/rounded_edges_black"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
